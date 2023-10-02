@@ -1,6 +1,6 @@
 const dataProjects = [
     {
-        img: './src/assets/project1.png',
+        img: './project1.png',
         title: 'Hotel Palace',
         address: 'Av: Campos do Alemães, 351 - Jd Souto - SJC',
     }, 
