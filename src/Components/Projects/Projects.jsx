@@ -4,8 +4,8 @@ import dataProjects from "./dataProjects";
 
 function Projects() {
   return (
-    <div className="w-full">
-      <div className="bg-cover bg-kitchen w-full h-72 flex flex-col md:flex-row items-center justify-around">
+    <div className="w-full" id="projetos">
+      <div className="bg-kitchen hover:contrast-100 contrast-50  bg-center w-full h-72 flex flex-col md:flex-row items-center justify-around">
         <div className="flex flex-col gap-y-4">
           <p className="text-white font-bold text-center md:text-left">
             Consulta gratuita com qualidade excepcional

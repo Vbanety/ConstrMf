@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/img/logo.png'
 
 function NavBar() {
   const [openNav, setOpenNav] = useState(false)
@@ -49,7 +49,7 @@ function NavBar() {
     <div className='bg-white w-full flex flex-row justify-between items-center'>
       
       <div className='text-blue-700 '>
-        <img src={Logo} alt='' className='w-32' />
+        <img src={Logo} alt='' className='w-36 p-2' />
       </div>
       
       <ul className='md:flex flex-row gap-x-10 hidden mr-0 md:mr-20'>

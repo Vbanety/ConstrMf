@@ -1,5 +1,5 @@
 import React from 'react'
-import OwnerPerson from '../../../src/assets/ownperson.png'
+import OwnerPerson from '../../../src/assets/img/operator.png'
 
 function AboutUs() {
     return (

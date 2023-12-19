@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='bg-neutral-100 w-full flex flex-col items-center justify-center p-4 md:p-10'>
+    <div id="contato" className='bg-neutral-100 w-full flex flex-col items-center justify-center p-4 md:p-10'>
             <h1 className='text-4xl text-neutral-900 font-work my-2'>O que nós podemos fazer por você?</h1>
             <p>Nós estamos preparados para cuidar de projetos com alta complexidade, desde ambiente comercial a industrial.</p>
         <form className='w-full md:w-[500px] my-5 md:my-10'>

@@ -1,14 +1,14 @@
 import React from 'react'
-import ConstIcon from '../../assets/logo.png'
+import ConstIcon from '../../assets/img/logo.png'
 function Footer() {
   return (
     <>
         <div className='w-full md:flex flex-row md:p-10 items-center justify-center'>
             <div className='w-full p-4 md:p-0 md:w-2/4 m-auto'>
                 <ul className='flex flex-col items-start gap-y-4'>
-                    <li><span className='text-primary font-work text-lg uppercase'>Endereço:</span> Av: Marechal Rondon, 109 - Centro - Jacareí SP</li>
-                    <li><span className='text-primary font-work text-lg uppercase'>Telefone:</span> (12) 9 9 9999 9999 </li>
-                    <li><span className='text-primary font-work text-lg uppercase'>email:</span> comercialmfen@mfconst.com.br</li>
+                    {/* <li><span className='text-primary font-work text-lg uppercase'>Endereço:</span> Av: Marechal Rondon, 109 - Centro - Jacareí SP</li> */}
+                    <li><span className='text-primary font-work text-lg uppercase'>Telefone:</span> (12) 9 98864-0652 </li>
+                    <li><span className='text-primary font-work text-lg uppercase'>email:</span> elevateconstrucoeseservicos@gmail.com</li>
                 </ul>
 
                 <img src={ConstIcon} alt='BunnerFooter' className='w-24 md:mt-5' />

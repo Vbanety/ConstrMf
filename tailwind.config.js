@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'kitchen': "url('/src/assets/kichen.png')",
+        'kitchen': "url('/src/assets/img/kitchen.png')",
       },
       fontFamily: {
         'sans-condensed': ['"IBM Plex Sans Condensed"', 'sans'],
@@ -16,8 +16,8 @@ export default {
         'work': ['"Work Sans"', 'sans'],
       },
       colors: {
-        primary: "#2947A9",
-        secundary: '#F9995D',
+        primary: "#ff4b35",
+        secundary: '#35aaff',
         neutral900: '#14171F',
         bluelighten: 'rgba(38, 74, 131, .9)',
         bluedark: '#264a83',
